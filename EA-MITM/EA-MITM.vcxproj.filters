@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Indigo\Core\String.cpp" />
+    <ClCompile Include="src\Indigo\IO\CommandLine.cpp" />
+    <ClCompile Include="src\Indigo\IO\Console.cpp" />
+    <ClCompile Include="src\Indigo\IO\MessageBox.cpp" />
+    <ClCompile Include="src\Indigo\Utility\Hook.cpp" />
+    <ClCompile Include="src\Indigo\Utility\Log.cpp" />
+    <ClCompile Include="src\Indigo\Utility\Memory.cpp" />
+    <ClCompile Include="src\Indigo\Utility\Config.cpp" />
+    <ClCompile Include="src\EA\ProtoSSL.cpp" />
+    <ClCompile Include="src\EA-MITM.cpp" />
+    <ClCompile Include="src\Indigo\Utility\ACPDump.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Indigo\Core\String.h" />
+    <ClInclude Include="src\Indigo\IO\CommandLine.h" />
+    <ClInclude Include="src\Indigo\IO\Console.h" />
+    <ClInclude Include="src\Indigo\IO\MessageBox.h" />
+    <ClInclude Include="src\Indigo\Utility\Config.h" />
+    <ClInclude Include="src\Indigo\Utility\Hook.h" />
+    <ClInclude Include="src\Indigo\Utility\Log.h" />
+    <ClInclude Include="src\Indigo\Utility\Memory.h" />
+    <ClInclude Include="src\EA-MITM.h" />
+    <ClInclude Include="src\EA\ProtoSSL.h" />
+    <ClInclude Include="src\Indigo\Utility\ACPDump.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\Offsets.txt" />
+  </ItemGroup>
+</Project>

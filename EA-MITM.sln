@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EA-MITM", "EA-MITM\EA-MITM.vcxproj", "{B891FB08-6B4A-498C-B617-59C6E2FCBE05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E} = {7E58E7CD-D43F-4368-842A-218B5FA3FC5E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{3940FD07-E894-46CB-9501-76EF12B4E4D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinHook", "MinHook\MinHook.vcxproj", "{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Debug|x64.ActiveCfg = Debug|x64
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Debug|x64.Build.0 = Debug|x64
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Debug|x86.ActiveCfg = Debug|Win32
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Debug|x86.Build.0 = Debug|Win32
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Release|x64.ActiveCfg = Release|x64
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Release|x64.Build.0 = Release|x64
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Release|x86.ActiveCfg = Release|Win32
+		{B891FB08-6B4A-498C-B617-59C6E2FCBE05}.Release|x86.Build.0 = Release|Win32
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Debug|x64.ActiveCfg = Debug|x64
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Debug|x64.Build.0 = Debug|x64
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Debug|x86.Build.0 = Debug|Win32
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Release|x64.ActiveCfg = Release|x64
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Release|x64.Build.0 = Release|x64
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Release|x86.ActiveCfg = Release|Win32
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E58E7CD-D43F-4368-842A-218B5FA3FC5E} = {3940FD07-E894-46CB-9501-76EF12B4E4D6}
+	EndGlobalSection
+EndGlobal

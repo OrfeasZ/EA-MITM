@@ -1,0 +1,7 @@
+LIBRARY
+EXPORTS
+		InitCommonControls = mInitCommonControls
+		Direct3DCreate9 = mDirect3DCreate9
+		DirectInput8Create = mDirectInput8Create
+		GetProcessImageFileNameW = mGetProcessImageFileNameW
+		GetModuleFileNameExW = mGetModuleFileNameExW
