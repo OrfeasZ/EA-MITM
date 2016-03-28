@@ -25,7 +25,7 @@ Send=0x00B92FC0
 Recv=0x00B93070
 ```
 
-5. Launch and play the game. The captured packets will be written to protossl_dump_*.acp and can be viewed using Wireshark.
+Launch and play the game. The captured packets will be written to protossl_dump_*.acp and can be viewed using Wireshark.
 
 ## Disclaimer
 
