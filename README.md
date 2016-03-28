@@ -2,7 +2,7 @@
 
 MITM for EA's DirtySock/ProtoSSL/ProtoHTTP powered products, fairly simple, used for dumping data between secure connections.
 
-Click (here)[http://blog.igonline.eu/ea-man-in-the-middle-ea-mitm-32/] for more information
+Click [here](http://blog.igonline.eu/ea-man-in-the-middle-ea-mitm-32/) for more information
 
 ## Installation/Usage
 
